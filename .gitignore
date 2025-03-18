@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+.venv/bin
+*.png
+*.csv
+.venv/
+.DS_Store
