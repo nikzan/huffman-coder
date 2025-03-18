@@ -322,11 +322,11 @@ def print_tree(node, level=0, prefix="Root: "):
 # Текстовое представление четверичного дерева
 def print_quaternary_tree(node, level=0, prefix="Root: "):
     if node is not None:
-        if "empty" not in node.symbol:  # Skip empty nodes in display
+        if "empty" not in node.symbol: 
             print(" " * level + prefix + f"{node.symbol} ({node.freq:.4f})")
             for i, child in enumerate(node.children):
                 if child:
-                    if "empty" not in child.symbol:  # Skip children that are empty nodes
+                    if "empty" not in child.symbol:  
                         print_quaternary_tree(child, level + 1, f"Child({i}): ")
                     else:
                         print(" " * (level + 1) + f"Child({i}): [empty node]")
