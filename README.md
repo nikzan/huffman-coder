@@ -24,7 +24,7 @@
 
 1. Клонируйте репозиторий:
     ```sh
-    git clone <repository-url>
+    git clone <https://github.com/nikzan/huffman-coder>
     cd <repository-directory>
     ```
 
