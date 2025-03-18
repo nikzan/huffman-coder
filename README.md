@@ -31,6 +31,7 @@
 2. Установите необходимые библиотеки:
     ```sh
     pip install graphviz
+    pip install tabulate
     ```
 
 ## Использование
